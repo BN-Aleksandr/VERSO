@@ -89,3 +89,135 @@ h6 {
   font-weight: 400;
 }
 /* --------------------------------------------------------------------------------------------------------------------- */
+body {
+  font-family: "Mulish", sans-serif;
+}
+/* Block with gradient backgraund */
+.top-block {
+  background: linear-gradient(
+    180deg,
+    rgba(7, 115, 250, 0.7) 0%,
+    #0773fa 80.03%
+  );
+}
+.head_items {
+  padding: 20px 0 0 155px;
+  font-family: "DM Sans", sans-serif;
+  width: 1440px;
+}
+.head_item1 {
+  margin: 20px 0 0 125px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  color: #fff;
+}
+.head_item2 {
+  margin: 20px 0 0 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 180%;
+  text-align: center;
+  color: #ffffff;
+}
+.head_item3 {
+  width: 76px;
+  height: 29px;
+  margin: 14px 0 0 134px;
+  padding: 5px 30px 5px 30px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 7px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 180%;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Why verso */
+h1 {
+  margin: 170px 0 0 325px;
+  padding: 0 0 0 50px;
+  margin-top: 170px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 51px;
+  line-height: 80px;
+  width: 790px;
+  text-align: center;
+  letter-spacing: -2.4px;
+  color: #ffffff;
+}
+/* Verso is available */
+.verso_link {
+  width: 690px;
+  margin: 20px 0 0 375px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.2px;
+  color: #ffffff;
+}
+.gate_link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.2px;
+  color: #033573;
+}
+
+.listing {
+  margin-top: 40px;
+  margin-left: 535px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: -0.2px;
+  display: flexbox;
+  flex-direction: column;
+}
+.block_painting1 {
+  margin: 14px 0 0 495px;
+  padding: 0;
+  width: 179px;
+  height: 71px;
+  border: 1px solid white;
+  border-radius: 6px;
+  background: white url(../img/image\ 21.svg) center -15px/110% auto no-repeat;
+}
+.block_painting2 {
+  margin: 14px 0 0 495px;
+  padding: 0;
+  width: 179px;
+  height: 71px;
+  border: 1px solid white;
+  border-radius: 6px;
+  background: rgba(255, 95, 0, 1) url(../img/image\ 24.svg) center/70% auto
+    no-repeat;
+}
+.block_painting3 {
+  margin: 14px 0 0 495px;
+  padding: 0;
+  width: 179px;
+  height: 71px;
+  border: 1px solid white;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 1) url(../img/image\ 16.svg) center no-repeat;
+}
+.block_painting4 {
+  margin: 14px 0 0 495px;
+  padding: 0;
+  width: 179px;
+  height: 71px;
+  border: 1px solid white;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 1) url(../img/image\ 22.svg) center/132px 32px
+    no-repeat;
+}
