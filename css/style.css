@@ -93,12 +93,18 @@ body {
   font-family: "Mulish", sans-serif;
   white-space: nowrap;
 }
-/* Block with gradient backgraund */
+.gradient-backgraund {
+  background: linear-gradient(
+    180deg,
+    rgba(7, 115, 250, 0.71) 0%,
+    #0773fa 80.03%
+  );
+  height: 957px;
+}
+
 .top-block {
-  background: linear-gradient(180deg, rgba(7, 115, 250, 0.7) 0%, #0773fa 80.03%)
-    0 0 no-repeat;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   height: 914px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .head_items {
   padding: 20px 0 0 155px;
@@ -271,4 +277,35 @@ h1 {
   font-size: 18px;
   line-height: 28px;
   color: #033573;
+}
+
+.blue_block {
+  margin-top: 43px;
+  height: 500px;
+  background: #0773fa;
+}
+
+h2 {
+  margin: 0px 0 0 421px;
+  padding: 10px;
+  width: 598px;
+  height: 80px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: -2.4px;
+  color: #ffffff;
+}
+
+.blue_block img {
+  height: 333px;
+  width: 200px;
+}
+.screen-1 {
+  margin: 31px 0 0 351px;
+}
+.screen-2 {
+  margin: 31px 0 0 322px;
 }
