@@ -93,7 +93,7 @@ body {
   font-family: "Mulish", sans-serif;
   white-space: nowrap;
 }
-.gradient-backgraund {
+.gradient-background {
   background: linear-gradient(
     180deg,
     rgba(7, 115, 250, 0.71) 0%,
@@ -379,7 +379,7 @@ h1 {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.blue_block {
+.blue-background {
   height: 698px;
   margin: 0;
   background: #0773fa;
@@ -387,7 +387,6 @@ h1 {
 
 h2 {
   display: inline-block;
-  margin: 47px 0 0 421px;
   width: 598px;
   height: 80px;
   font-style: normal;
@@ -396,6 +395,9 @@ h2 {
   line-height: 80px;
   text-align: center;
   letter-spacing: -2.4px;
+}
+.metamask {
+  margin: 47px 0 0 421px;
   color: #ffffff;
 }
 
@@ -404,7 +406,6 @@ h2 {
   display: inline-block;
   width: 380px;
   height: 470px;
-  border: 1px solid red;
 }
 .cart1 {
   margin: 31px 0 0 265px;
@@ -491,6 +492,89 @@ h2 {
   position: absolute;
   left: 1210px;
   top: 1286px;
+}
+.opportunities {
+  margin: 31px 0 0 421px;
+  color: #283049;
+}
+.white-block-text {
+  margin: 20px 0 0 375px;
+  width: 690px;
+  height: 56px;
+  white-space: normal;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.2px;
+  color: #1f3e4f;
+}
+
+table {
+  white-space: normal;
+  margin: 57px 0 0 270px;
+  font-family: "DM Sans", sans-serif;
+  width: 900px;
+  height: 525px;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.2px;
+  color: #1f3e4f;
+  border-collapse: collapse;
+  /* border: 1px solid red; */
+}
+th {
+  text-align: left;
+  /* border: 1px solid palevioletred; */
+}
+td {
+  text-align: left;
+  vertical-align: top;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 0px;
+  /* border: 1px solid palevioletred; */
+}
+.first-column {
+  width: 279px;
+}
+.second-column {
+  width: 173;
+}
+.third-column {
+  width: 180px;
+  text-align: center;
+}
+.second-column-blue-text {
+  color: rgba(24, 123, 245, 1);
+}
+.fourth-column-red-text {
+  font-style: italic;
+  color: #ff655f;
+}
+table tr:first-child {
+  border-bottom: 1px solid rgba(24, 123, 245, 0.4);
+}
+table tr:last-child {
+  border-bottom: 1px solid rgba(24, 123, 245, 0.4);
+}
+.first-line {
+  height: 160px;
+}
+
+.img-under-table {
+  margin: 31px 0 0 282px;
+}
+.text-under-table {
+  margin: 30px 0 0 16px;
+  display: inline-block;
+  width: 200px;
+  height: 56px;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.2px;
+  color: #1f3e4f;
 }
 
 /* .line1 {
