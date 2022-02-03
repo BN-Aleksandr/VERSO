@@ -92,6 +92,7 @@ h6 {
 body {
   font-family: "Mulish", sans-serif;
   white-space: nowrap;
+  width: 1440px;
 }
 .gradient-background {
   background: linear-gradient(
@@ -567,7 +568,7 @@ table tr:last-child {
   margin: 31px 0 0 282px;
 }
 .text-under-table {
-  margin: 30px 0 0 16px;
+  margin: 30px 0 75px 16px;
   display: inline-block;
   width: 200px;
   height: 56px;
@@ -575,6 +576,135 @@ table tr:last-child {
   line-height: 28px;
   letter-spacing: -0.2px;
   color: #1f3e4f;
+}
+
+.bottom-blue-background {
+  background: #0060e0;
+  font-family: "DM Sans", sans-serif;
+  white-space: nowrap;
+}
+
+.logo-footer {
+  display: inline-block;
+  margin: 49px 0 0 159px;
+}
+
+.block-with-form {
+  display: inline-block;
+  margin: 93px 0 0 277px;
+  padding: 0px;
+  width: 345px;
+  height: 149px;
+  font-style: normal;
+  font-weight: normal;
+  position: relative;
+}
+.block-with-form p {
+  display: inline-block;
+  white-space: normal;
+  width: 250px;
+  height: 58px;
+  font-size: 22px;
+  line-height: 29px;
+  letter-spacing: -0.3px;
+  color: #ffffff;
+}
+
+.block-with-form input {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #1783ff;
+  background: #0060e0;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.204545px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 97px;
+}
+.block-with-form input::placeholder {
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.204545px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  text-align: left;
+  vertical-align: middle;
+}
+.block-with-form button {
+  width: 60px;
+  height: 50px;
+  background: url("../img/Submit.svg");
+  position: absolute;
+  top: 96px;
+  left: 285px;
+}
+
+.services,
+.about {
+  display: inline-block;
+  width: 106px;
+  height: 182px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: auto;
+  letter-spacing: -0.204545px;
+  color: #ffffff;
+  position: relative;
+  top: 95px;
+}
+.services {
+  margin-left: 142px;
+}
+.services p,
+.about p {
+  padding-top: 25px;
+}
+
+.services p:first-child,
+.about p:first-child {
+  color: #1783ff;
+  padding-top: 0px;
+  /* padding: 20px 0 0 0; */
+}
+
+.about {
+  margin-left: 140px;
+}
+.images {
+  margin: 113px 0 0 1128px;
+}
+.images img {
+  margin: 0 20px 0 20px;
+}
+.last-text-1,
+.last-text-2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  margin-top: 67px;
+}
+
+.last-text-1 {
+  display: inline-block;
+  letter-spacing: -0.204545px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin-left: 155px;
+}
+.last-text-2 {
+  display: inline-block;
+  letter-spacing: -0.204545px;
+  color: #ffffff;
+  margin-left: 648px;
+}
+.back-to-top img {
+  margin: 37px 0px 22px 1362px;
 }
 
 /* .line1 {
