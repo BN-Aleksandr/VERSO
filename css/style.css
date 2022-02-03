@@ -95,16 +95,17 @@ body {
   width: 1440px;
   margin: 0 auto;
   position: relative;
-  background: url("../img/Line\ 14.svg");
 }
 .gradient-background {
   background: linear-gradient(
-      180deg,
-      rgba(7, 115, 250, 0.71) 0%,
-      #0773fa 80.03%
-    ),
-    url("../img/Line\ 14.svg") 0 0 no-repeat;
-  height: 914px;
+    180deg,
+    rgba(7, 115, 250, 0.71) 0%,
+    #0773fa 80.03%
+  );
+}
+.backgraund-for-lines-1 {
+  background: url("../img/Line\ 14.svg") 0 365px no-repeat,
+    url("../img/Line\ 15.svg") 0 468px no-repeat;
 }
 
 .head_items {
@@ -385,9 +386,14 @@ h1 {
 }
 
 .blue-background {
-  height: 698px;
   margin: 0;
   background: #0773fa;
+}
+.backgraund-for-lines-2 {
+  background: url("../img/Line\ 14.svg") 0 -518px no-repeat,
+    url("../img/Line\ 15.svg") 0 -415px no-repeat,
+    url("../img/Line3.svg") 0 78px/100% auto no-repeat,
+    url("../img/Line4.svg") 0 181px no-repeat;
 }
 
 h2 {
@@ -413,10 +419,10 @@ h2 {
   height: 470px;
 }
 .cart1 {
-  margin: 31px 0 0 265px;
+  margin: 31px 0 60px 265px;
 }
 .cart2 {
-  margin: 31px 0 0 142px;
+  margin: 31px 0 60px 142px;
 }
 
 .screen1,
